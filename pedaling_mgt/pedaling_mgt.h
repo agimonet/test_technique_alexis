@@ -7,12 +7,6 @@
 /**** Public API ****/
 
 /**
- * @brief Called to initialize the pedaling state machine
- */
-
-void pedaling_mgt_init(void);
-
-/**
  * @brief Return current pedaling speed in RPM
  */
 float get_pedaling_speed(void);
