@@ -23,6 +23,7 @@ int main(void)
 
     fprintf(fp, "pedaling_speed,average_pedaling_speed\n");
 
+    pedaling_mgt_init();
     for (uint8_t i = 0; i < NUMBER_OF_INTERRUPTION; i++)
     {
         update_timestamp();
